@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+nav{
+    height: 8%;
+    /* border: 2px solid red; */
+  }
+  
+  .navbar_container{
+      display: flex;
+      height: 8vh;
+      width: 100vw;
+      /* border: 2px solid blue; */
+  }
+  
+  .first_content{
+      display: flex;
+      width: 15%;
+      justify-content: space-around;
+      align-items: center ;
+  }
+  .first_content img{
+     height: 4vh;
+     width: 70%
+  }
+  
+  .second_content{
+      display: flex;
+      width: 70%;
+     align-items: center;
+     justify-content: center;
+  }
+  
+  .second_content input{
+      position: relative;
+      width: 60%;
+      height: 6vh;
+      margin-right: 1rem;
+  }
+  .second_content input::placeholder{
+  padding: 1rem;
+  }
+  
+  .fa-magnifying-glass{
+     position: absolute;
+     right: 480px;
+  }
+  
+  .third_content{
+      height: 8vh;
+      width: 15%;
+      /* border: 2px solid gray; */
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  .subdiv{
+      position: relative;
+      height: 70%;
+      width: 60%;
+      border: 2px solid rgb(76, 76, 215);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .subdiv p{
+    color: blue;
+  }
+main {
+    height: 92vh;
+    width: 100%;
+    display: flex;
+}
+
+.leftBarSection {
+    width: 15vw;
+    height: 100%;
+    padding-left: 10px;
+    color: rgb(91, 91, 91);
+}
+
+.leftBarSection ul{
+    padding-left: 30px;
+}
+
+.leftBarSection ul li{
+    margin-top: 15px;
+    list-style: none;
+}
+
+.leftBarSection p{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.leftBarSection input{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 5px 15px;
+    color:rgb(19, 180, 180);
+    background-color: transparent;
+    font-weight: 600;
+    border-color: rgb(2, 163, 163);
+}
+
+.leftBarSection h3{
+    color: grey;
+}
+
+.mainContentSection {
+    height: 100%;
+    width: 85vw;
+    overflow-y: scroll;
+}
+
+.fixedCategoryContainer {
+    width: 100%;
+    height: 4vh;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.fixedCategoryContainer h3 i{
+    margin: 0 .5rem;
+}
+
+.videoCardsContainer {
+    width: 83vw;
+    height: 40vh;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x:auto;
+}
+
+.videoCardContainer{
+    min-width: 250px;
+    height: 230px;
+    margin: .8rem;
+}
+
+.videoCardContainer img{
+    width: 100%;
+    height: 60%;
+    border-radius: 2px;
+}
+
+.details{
+    width: 100%;
+    line-height: 1.4rem;
+}
+
+.details p{
+    color: rgb(74, 74, 74);
+}
